@@ -43,6 +43,18 @@ Input features $\mathbf{X} \in \mathbb{R}^{32 \times 3}$ capture:
 
 ---
 
+## Model Assets & Releases
+
+Pre-trained production models are available in the [GitHub Releases](https://github.com/joaorura/neural-eq/releases) section:
+1. **`neural-eq-model.tar.gz` (~125 KB)**:
+   - Compressed archive containing the production `neural_eq.onnx` graph and metadata.
+2. **`neural_eq.onnx` (128 KB)**:
+   - Standalone ONNX Opset 13 model certified for embedded execution via Sonos Tract 0.19.16 and ONNX Runtime.
+3. **`SHA256SUMS.txt`**:
+   - Cryptographic checksum verification file.
+
+---
+
 ## Getting Started
 
 ### Installation
